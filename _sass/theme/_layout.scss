@@ -1,0 +1,20 @@
+/**
+ * Home
+ */
+.home {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .title {
+    display: flex;
+    align-self: center;
+    margin: 10px;
+  }
+
+  .image {
+    display: flex;
+    border-radius: 50%;
+    // box-shadow: 1px 1px 3px #CCCCCC;
+  }
+}
