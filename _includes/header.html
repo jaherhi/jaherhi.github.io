@@ -1,8 +1,17 @@
-<header class="site-header" role="banner">
+<header class="site-header" role="navigation">
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-  </div>
+    <div class="navigation">
+      <a class="site-link" href="{{ "/" | relative_url }}">Home</a>
+    </div>
+
+    <div class="links">
+      {% if site.twitter_username and site.twitter_link %}
+        {% include social_link.html link=site.twitter_link username=site.twitter_username social="Twitter" %}
+      {% endif %}
+
+      {% if site.github_username and site.github_link %}
+        {% include social_link.html link=site.github_link username=site.github_username social="Github" %}
+      {% endif %}
+    </div>
 
 </header>

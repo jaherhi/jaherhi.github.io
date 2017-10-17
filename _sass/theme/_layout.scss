@@ -1,20 +1,58 @@
 /**
+ * Site header
+ */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .navigation {
+    display: flex;
+    justify-content: flex-start;
+
+    .site-link {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+
+    .social-link {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+
+/**
  * Home
  */
-.home {
+.home-title {
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   .title {
     display: flex;
     align-self: center;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .image {
-    display: flex;
     border-radius: 50%;
-    // box-shadow: 1px 1px 3px #CCCCCC;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+}
+
+.home-content {
+  padding: 20px;
 }
