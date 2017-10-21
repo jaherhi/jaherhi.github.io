@@ -29,30 +29,35 @@
 }
 
 /**
- * Home
+ * home
  */
 .home-title {
   display: flex;
-  width: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   .title {
-    display: flex;
     align-self: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+    font-size: 3rem;
   }
 
   .image {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
   }
 }
 
 .home-content {
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  .content-wrapper {
+    max-width: $content-width;
+    font-size: 32px;
+  }
 }
