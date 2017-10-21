@@ -5,6 +5,7 @@ body {
   margin: 0;
   width: 100%;
   background-color: $background-color;
+  color: $content-color;
 }
 
 .site-header {
@@ -15,4 +16,32 @@ body {
   a:hover {
     color: $header-link-color-hover;
   }
+}
+
+p {
+  font-size: $content-font-size;
+}
+
+h1 {
+  font-size: $title-font-size;
+}
+
+h2 {
+  font-size: $title-font-size - 1 * $title-font-size-step;
+}
+
+h3 {
+  font-size: $title-font-size - 2 * $title-font-size-step;
+}
+
+h4 {
+  font-size: $title-font-size - 3 * $title-font-size-step;
+}
+
+h5 {
+  font-size: $title-font-size - 4 * $title-font-size-step;
+}
+
+h6 {
+  font-size: $title-font-size - 5 * $title-font-size-step;
 }
