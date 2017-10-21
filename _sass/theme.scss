@@ -19,7 +19,12 @@ $header-color: $dinosaur-grey;
 $header-link-color: $ghost-white;
 $header-link-color-hover: $dark-ghost-white;
 
+$content-color: $smoky-black;
+
 // Font sizes
+$title-font-size: 3rem;
+$title-font-size-step: 0.2rem;
+$content-font-size: 1.5rem;
 
 // Import
 @import
