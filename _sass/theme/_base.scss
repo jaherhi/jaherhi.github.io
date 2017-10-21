@@ -1,16 +1,18 @@
 /**
- * Reset some elements
+ * body
  */
-body, h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
-}
-
 body {
+  margin: 0;
   width: 100%;
-  background-color: #F9F9FF;
+  background-color: $background-color;
 }
 
-p {
-  font-size: 32px;
+.site-header {
+  a {
+    color: $header-link-color;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $header-link-color-hover;
+  }
 }

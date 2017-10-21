@@ -1,11 +1,27 @@
 @charset "utf-8";
 
-// $spacing-unit: 30px !default;
-
 // Width of the content area
 $content-width: 800px !default;
 
-// Import partials.
+// Colors
+$ghost-white: #f9f9ff;
+$dark-ghost-white: #ccccd1;
+
+$dinosaur-grey: #544f56;
+
+$smoky-black: #0c0a00;
+
+// Background colors
+$background-color: $ghost-white;
+$header-color: $dinosaur-grey;
+
+// Text colors
+$header-link-color: $ghost-white;
+$header-link-color-hover: $dark-ghost-white;
+
+// Font sizes
+
+// Import
 @import
   "theme/base",
   "theme/layout",
