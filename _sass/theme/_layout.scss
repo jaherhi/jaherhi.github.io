@@ -1,14 +1,14 @@
 /**
- * Site header
+ * site header
  */
 .site-header {
+  background-color: $header-color;
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
 
   .navigation {
-    display: flex;
     justify-content: flex-start;
 
     .site-link {
@@ -18,7 +18,6 @@
   }
 
   .links {
-    display: flex;
     justify-content: flex-end;
 
     .social-link {
