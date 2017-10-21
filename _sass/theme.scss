@@ -4,16 +4,16 @@
 $content-width: 800px !default;
 
 // Colors
-$ghost-white: #f9f9ff;
-$dark-ghost-white: #ccccd1;
+$ghost-white: #ffffff;
+$dark-ghost-white: #d1d0d2;
 
-$dinosaur-grey: #544f56;
+$raisin-black: #201f1f;
 
 $smoky-black: #0c0a00;
 
 // Background colors
 $background-color: $ghost-white;
-$header-color: $dinosaur-grey;
+$header-color: $raisin-black;
 
 // Text colors
 $header-link-color: $ghost-white;
@@ -22,6 +22,7 @@ $header-link-color-hover: $dark-ghost-white;
 $content-color: $smoky-black;
 
 // Font sizes
+$header-navigation-font-size: 0.8rem;
 $title-font-size: 3rem;
 $title-font-size-step: 0.2rem;
 $content-font-size: 1.5rem;
