@@ -2,55 +2,51 @@
  * site header
  */
 .site-header {
-  background-color: $header-color;
   display: flex;
   justify-content: space-between;
+}
 
-  .navigation {
-    justify-content: flex-start;
-    align-self: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 28px;
-    padding-right: 28px;
+.site-links {
+  justify-content: flex-start;
+  align-self: center;
+  padding: 14px 28px;
 
-    .site-link {
-      padding: 5px;
-    }
+  .site-link {
+    padding: 5px;
+  }
+}
+
+.social-links {
+  justify-content: flex-end;
+  align-self: center;
+  padding-left: 28px;
+  padding-right: 28px;
+
+  .social-icon {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
   }
 
-  .links {
-    justify-content: flex-end;
-    align-self: center;
-    padding-left: 28px;
-    padding-right: 28px;
-
-    .social-icon {
-      border-radius: 50%;
-      width: 26px;
-      height: 26px;
-    }
-
-    .social-icon:hover {
-      background-color: $header-link-color-hover;
-    }
-
-    .social-link {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
+  .social-link {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 /**
  * home
  */
+.home {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 .home-title {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 32px;
 
   .image {
     height: 200px;

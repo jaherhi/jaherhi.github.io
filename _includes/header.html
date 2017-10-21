@@ -1,10 +1,10 @@
 <header class="site-header" role="navigation">
 
-    <div class="navigation">
+    <div class="site-links">
       <a class="site-link" href="{{ "/" | relative_url }}">HOME</a>
     </div>
 
-    <div class="links">
+    <div class="social-links">
       {% if site.twitter_username and site.twitter_link %}
         {% include social_link.html link=site.twitter_link username=site.twitter_username icon=site.twitter_icon %}
       {% endif %}

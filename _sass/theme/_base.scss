@@ -10,24 +10,17 @@ body {
     "Segoe UI", Roboto, 'Helvetica Neue', Arial, sans-serif
 }
 
-.site-header {
-  a {
-    color: $header-link-color;
-    text-decoration: none;
-  }
-  a:hover {
-    color: $header-link-color-hover;
-  }
-}
-
-.navigation {
-  font-size: $header-navigation-font-size;
-}
+/**
+ * paragraph
+ */
 
 p {
   font-size: $content-font-size;
 }
 
+/**
+ * heading
+ */
 h1 {
   font-size: $title-font-size;
 }
@@ -50,4 +43,27 @@ h5 {
 
 h6 {
   font-size: $title-font-size - 5 * $title-font-size-step;
+}
+
+/*
+ * site header
+ */
+.site-header {
+  background-color: $header-color;
+
+  a {
+    color: $header-link-color;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $header-link-color-hover;
+  }
+
+  .site-links {
+    font-size: $header-navigation-font-size;
+  }
+
+  .social-icon:hover {
+    background-color: $header-link-color-hover;
+  }
 }
