@@ -5,13 +5,19 @@
     </div>
 
     <div class="social-links">
-      {% if site.twitter_username and site.twitter_link %}
+      
+      {% if site.twitter_username and site.twitter_link and site.twitter_icon %}
         {% include social_link.html link=site.twitter_link username=site.twitter_username icon=site.twitter_icon %}
       {% endif %}
 
-      {% if site.github_username and site.github_link %}
+      {% if site.github_username and site.github_link and site.github_icon %}
         {% include social_link.html link=site.github_link username=site.github_username icon=site.github_icon %}
       {% endif %}
+
+      {% if site.linkedin_username and site.linkedin_link and site.linkedin_icon %}
+        {% include social_link.html link=site.linkedin_link username=site.linkedin_username icon=site.linkedin_icon %}
+      {% endif %}
+
     </div>
 
 </header>
