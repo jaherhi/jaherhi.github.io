@@ -22,13 +22,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 social_links:
 - link: https://twitter.com/
   username: jaherhi
-  icon: twitter.svg
+  icon: twittr.svg
 - link: https://github.com/
   username: jaherhi
-  icon: github.png
+  icon: githb.svg
 - link: https://www.linkedin.com/in/
   username: hernandezjavi/en
-  icon: linkedin.png
+  icon: linkedn.svg
 
 # Build settings
 markdown: kramdown
