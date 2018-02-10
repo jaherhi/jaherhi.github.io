@@ -4,7 +4,7 @@
       <a class="site-link" href="{{ "/" | relative_url }}">HOME</a>
     </div>
 
-    <div class="social-links">
+    <div class="other-links">
       {% for social_link in site.social_links %}
         {% if social_link.username and social_link.link and social_link.icon %}
           {% include social_link.html link=social_link.link username=social_link.username icon=social_link.icon %}
