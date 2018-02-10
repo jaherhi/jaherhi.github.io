@@ -1,10 +1,11 @@
 @charset "utf-8";
 
-// Width of the content area
+// Content area
 $content-width: 800px !default;
 
 // Colors
 $ghost-white: #ffffff;
+$pale-ghost-white: #eae9eb;
 $dark-ghost-white: #d1d0d2;
 
 $raisin-black: #201f1f;
@@ -12,14 +13,14 @@ $raisin-black: #201f1f;
 $smoky-black: #0c0a00;
 
 // Background colors
-$background-color: $ghost-white;
+$background-color: $raisin-black;
 $header-color: $raisin-black;
 
 // Text colors
 $header-link-color: $ghost-white;
 $header-link-color-hover: $dark-ghost-white;
 
-$content-color: $smoky-black;
+$content-color: $pale-ghost-white;
 
 // Font sizes
 $header-navigation-font-size: 0.8rem;
