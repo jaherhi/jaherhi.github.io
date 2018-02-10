@@ -19,16 +19,6 @@ description: > # this means to ignore newlines until "baseurl:"
   still a work in progress
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-social_links:
-- link: https://twitter.com/
-  username: jaherhi
-  icon: twittr.svg
-- link: https://github.com/
-  username: jaherhi
-  icon: githb.svg
-- link: https://www.linkedin.com/in/
-  username: hernandezjavi/en
-  icon: linkedn.svg
 
 # Build settings
 markdown: kramdown
