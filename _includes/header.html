@@ -1,15 +1,14 @@
 <header class="site-header" role="navigation">
 
+  <div class="header-bar">
     <div class="site-links">
       <a class="site-link" href="{{ "/" | relative_url }}">HOME</a>
     </div>
+  </div>
 
-    <div class="other-links">
-      {% for social_link in site.data.social_links %}
-        {% if social_link.username and social_link.link and social_link.icon %}
-          {% include social_link.html link=social_link.link username=social_link.username icon=social_link.icon %}
-        {% endif %}
-      {% endfor %}
-    </div>
+  <div class="header-content">
+    <img class="image" src={{ "assets/img/profile.jpg" }} height="100" width="100">
+    <h1>Javier Hernández</h1>
+  </div>
 
 </header>

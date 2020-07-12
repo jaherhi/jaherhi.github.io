@@ -44,22 +44,3 @@ h5 {
 h6 {
   font-size: $title-font-size - 5 * $title-font-size-step;
 }
-
-/*
- * site header
- */
-.site-header {
-  background-color: $header-color;
-
-  a {
-    color: $header-link-color;
-    text-decoration: none;
-  }
-  a:hover {
-    color: $header-link-color-hover;
-  }
-
-  .site-links {
-    font-size: $header-navigation-font-size;
-  }
-}

@@ -2,25 +2,20 @@
 layout: default
 ---
 
-<div class="home">
-
-  <div class="home-title">
-    <img class="image" src={{ "assets/img/profile.jpg" }} height="100" width="100">
-  </div>
+<div class="home-container">
 
   <div class="home-content">
-    <div class="content-wrapper">
-      {{ content }}
-    </div>
-
-    <div class="content-links">
-      {% for social_link in site.data.social_links %}
-        {% if social_link.username and social_link.link and social_link.icon %}
-          {% include social_link.html link=social_link.link username=social_link.username icon=social_link.icon %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
+    {{ content }}
   </div>
+
+  <div class="home-links">
+    {% for social_link in site.data.social_links %}
+      {% if social_link.username and social_link.link and social_link.icon %}
+        {% include social_link.html link=social_link.link username=social_link.username icon=social_link.icon %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>
 
 </div>

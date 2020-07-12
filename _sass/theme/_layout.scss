@@ -1,92 +1,42 @@
-/**
- * site header
- */
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-/**
- * links
- */
-.site-links {
-  justify-content: flex-start;
-  align-self: center;
-  padding: 14px 28px;
-
-  .site-link {
-    padding: 5px;
-  }
-}
-
-.other-links {
-  justify-content: flex-end;
-  align-self: center;
-  padding-left: 28px;
-  padding-right: 28px;
-
-  .other-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .other-link {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-/**
- * home
- */
-.home {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.home-title {
+.container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px 32px 0px 32px;
+  padding: 24px;
+}
 
-  .image {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    margin: 10px;
-  }
+.content {
+  max-width: $content-width;
+  text-align: center;
+}
 
-  .title {
-    align-self: center;
-    margin: 10px;
-    text-align: center;
-  }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
 }
 
 .home-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px 32px 40px 32px;
+  justify-content: center;
 
-  .content-wrapper {
-    max-width: $content-width;
-    text-align: center;
+  h4 {
+    margin: 0px;
+  }
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .other-icon {
+    width: 30px;
+    height: 30px;
   }
 
-  .content-links {
-    display: flex;
-    justify-content: center;
-
-    .other-icon {
-      width: 30px;
-      height: 30px;
-    }
-
-    .other-link {
-      margin-left: 18px;
-      margin-right: 18px;
-    }
+  .other-link {
+    margin-left: 18px;
+    margin-right: 18px;
   }
 }
